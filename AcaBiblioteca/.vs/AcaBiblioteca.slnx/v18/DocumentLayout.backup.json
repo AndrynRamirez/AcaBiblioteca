@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\usuario\\documents\\github\\acabiblioteca\\acabiblioteca\\acabiblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\usuario\\documents\\github\\acabiblioteca\\acabiblioteca\\acabiblioteca\\frmlibros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmlibros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\usuario\\documents\\github\\acabiblioteca\\acabiblioteca\\acabiblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\usuario\\documents\\github\\acabiblioteca\\acabiblioteca\\acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\usuario\\documents\\github\\acabiblioteca\\acabiblioteca\\acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3B1DAA-F90D-44FA-AD2F-5FB91EFF158C}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmLibros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmLibros.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AcaBiblioteca\\FrmLibros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T19:47:44.418Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmLibros.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.Designer.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmLibros.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.Designer.cs",
+              "RelativeToolTip": "AcaBiblioteca\\FrmLibros.Designer.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAMAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T19:47:23.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmLibros.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmLibros.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.cs",
+              "RelativeToolTip": "AcaBiblioteca\\FrmLibros.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T19:37:31.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AcaBiblioteca\\FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T19:14:16.95Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\FrmPrincipal.cs",
+              "RelativeToolTip": "AcaBiblioteca\\FrmPrincipal.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAywDkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T17:35:39.532Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
