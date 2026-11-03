@@ -52,7 +52,7 @@
             // 
             // pnlMenu
             // 
-            pnlMenu.BackColor = Color.LightBlue;
+            pnlMenu.BackColor = Color.MediumPurple;
             pnlMenu.Controls.Add(btnSalir);
             pnlMenu.Controls.Add(btnReportes);
             pnlMenu.Controls.Add(btnPrestamos);
@@ -214,7 +214,7 @@
             // 
             // pnlLogo
             // 
-            pnlLogo.BackColor = Color.DarkCyan;
+            pnlLogo.BackColor = Color.DarkSlateBlue;
             pnlLogo.Controls.Add(picLogo);
             pnlLogo.Controls.Add(lblSubtitulo);
             pnlLogo.Controls.Add(lblTitulo);
@@ -262,7 +262,7 @@
             // 
             // pnlSuperior
             // 
-            pnlSuperior.BackColor = Color.LightBlue;
+            pnlSuperior.BackColor = Color.MediumPurple;
             pnlSuperior.Dock = DockStyle.Top;
             pnlSuperior.Location = new Point(253, 0);
             pnlSuperior.Name = "pnlSuperior";
@@ -271,7 +271,7 @@
             // 
             // pnlEstado
             // 
-            pnlEstado.BackColor = SystemColors.ControlLight;
+            pnlEstado.BackColor = Color.DarkSlateBlue;
             pnlEstado.Dock = DockStyle.Bottom;
             pnlEstado.Location = new Point(253, 410);
             pnlEstado.Name = "pnlEstado";
@@ -298,6 +298,7 @@
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sistema Gestion De Biblioteca";
+            WindowState = FormWindowState.Maximized;
             pnlMenu.ResumeLayout(false);
             pnlLogo.ResumeLayout(false);
             pnlLogo.PerformLayout();

@@ -1,3 +1,5 @@
+using AcaBiblioteca.Datos;
+
 namespace AcaBiblioteca
 {
     public partial class FrmPrincipal : Form
@@ -5,6 +7,28 @@ namespace AcaBiblioteca
         public FrmPrincipal()
         {
             InitializeComponent();
+            //Conexion conexion = new Conexion();
+            //try
+            //{
+              //  using (var conn = conexion.ObtenerConexion())
+                //{
+                  //  conn.Open();
+                    //se realizo la conexion de manera correcta
+                    //MessageBox.Show("Se realizo la conexion correcto",
+                    //"AcaBiblioteca",
+                    //MessageBoxButtons.OK,
+                    //MessageBoxIcon.Information);     
+                //}
+            //}
+            //catch (Exception ex)
+            //{
+              //  MessageBox.Show("error en la conexion con la base de datos"+ ex.Message,
+                //    "AcaBiblioteca",
+                //  MessageBoxButtons.OK,
+                //  MessageBoxIcon.Error);
+                //{ }
+            //}
+             
             AbrirFormulario(new FrmInicio());
         }
 
