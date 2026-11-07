@@ -1,0 +1,63 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+
+# =========================
+# Compilación (.NET)
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+*.publishsettings
+PublishScripts/
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+!**/packages/build/
+
+# =========================
+# Pruebas
+# =========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# =========================
+# Otros IDE
+# =========================
+.idea/
+*.swp
+*~
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.bak
+*.log
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Configuración local
+# =========================
+appsettings.local.json
+*.local

@@ -48,18 +48,20 @@
             // 
             // pnlTitulo
             // 
+            pnlTitulo.BackColor = Color.DarkSlateBlue;
             pnlTitulo.Controls.Add(lblTitulo);
             pnlTitulo.Dock = DockStyle.Top;
+            pnlTitulo.ForeColor = Color.White;
             pnlTitulo.Location = new Point(0, 0);
             pnlTitulo.Name = "pnlTitulo";
-            pnlTitulo.Size = new Size(800, 80);
+            pnlTitulo.Size = new Size(800, 60);
             pnlTitulo.TabIndex = 0;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Unispace", 15.7499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitulo.Location = new Point(278, 31);
+            lblTitulo.Location = new Point(276, 19);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(246, 25);
             lblTitulo.TabIndex = 0;
@@ -77,7 +79,7 @@
             pnlCrud.Controls.Add(lblApellido);
             pnlCrud.Controls.Add(lblNombre);
             pnlCrud.Dock = DockStyle.Top;
-            pnlCrud.Location = new Point(0, 80);
+            pnlCrud.Location = new Point(0, 60);
             pnlCrud.Name = "pnlCrud";
             pnlCrud.Size = new Size(800, 200);
             pnlCrud.TabIndex = 1;
@@ -166,10 +168,13 @@
             // 
             // dgvAutores
             // 
+            dgvAutores.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvAutores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAutores.Location = new Point(0, 286);
+            dgvAutores.Dock = DockStyle.Fill;
+            dgvAutores.Location = new Point(0, 260);
+            dgvAutores.MultiSelect = false;
             dgvAutores.Name = "dgvAutores";
-            dgvAutores.Size = new Size(800, 150);
+            dgvAutores.Size = new Size(800, 190);
             dgvAutores.TabIndex = 2;
             // 
             // FrmAutores
@@ -181,6 +186,7 @@
             Controls.Add(pnlCrud);
             Controls.Add(pnlTitulo);
             Name = "FrmAutores";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "FrmAutores";
             pnlTitulo.ResumeLayout(false);
             pnlTitulo.PerformLayout();

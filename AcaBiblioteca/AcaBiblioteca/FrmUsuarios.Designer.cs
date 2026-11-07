@@ -48,25 +48,29 @@
             lblNombre = new Label();
             sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             dgvUsuarios = new DataGridView();
+            pnlTabla = new Panel();
             pnlTitulo.SuspendLayout();
             pnlCrud.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).BeginInit();
+            pnlTabla.SuspendLayout();
             SuspendLayout();
             // 
             // pnlTitulo
             // 
+            pnlTitulo.BackColor = Color.DarkSlateBlue;
             pnlTitulo.Controls.Add(lblTitulo);
             pnlTitulo.Dock = DockStyle.Top;
+            pnlTitulo.ForeColor = Color.White;
             pnlTitulo.Location = new Point(0, 0);
             pnlTitulo.Name = "pnlTitulo";
-            pnlTitulo.Size = new Size(800, 80);
+            pnlTitulo.Size = new Size(800, 60);
             pnlTitulo.TabIndex = 0;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Unispace", 15.7499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitulo.Location = new Point(279, 32);
+            lblTitulo.Location = new Point(298, 20);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(259, 25);
             lblTitulo.TabIndex = 0;
@@ -90,7 +94,7 @@
             pnlCrud.Controls.Add(lblApellido);
             pnlCrud.Controls.Add(lblNombre);
             pnlCrud.Dock = DockStyle.Top;
-            pnlCrud.Location = new Point(0, 80);
+            pnlCrud.Location = new Point(0, 60);
             pnlCrud.Name = "pnlCrud";
             pnlCrud.Size = new Size(800, 225);
             pnlCrud.TabIndex = 1;
@@ -232,19 +236,31 @@
             // 
             // dgvUsuarios
             // 
+            dgvUsuarios.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvUsuarios.Location = new Point(0, 311);
+            dgvUsuarios.Dock = DockStyle.Fill;
+            dgvUsuarios.Location = new Point(0, 0);
+            dgvUsuarios.MultiSelect = false;
             dgvUsuarios.Name = "dgvUsuarios";
-            dgvUsuarios.Size = new Size(800, 150);
+            dgvUsuarios.Size = new Size(800, 165);
             dgvUsuarios.TabIndex = 2;
             dgvUsuarios.DoubleClick += dgvUsuarios_DoubleClick;
+            // 
+            // pnlTabla
+            // 
+            pnlTabla.Controls.Add(dgvUsuarios);
+            pnlTabla.Dock = DockStyle.Fill;
+            pnlTabla.Location = new Point(0, 285);
+            pnlTabla.Name = "pnlTabla";
+            pnlTabla.Size = new Size(800, 165);
+            pnlTabla.TabIndex = 2;
             // 
             // FrmUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(dgvUsuarios);
+            Controls.Add(pnlTabla);
             Controls.Add(pnlCrud);
             Controls.Add(pnlTitulo);
             Name = "FrmUsuarios";
@@ -254,6 +270,7 @@
             pnlCrud.ResumeLayout(false);
             pnlCrud.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).EndInit();
+            pnlTabla.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -279,5 +296,6 @@
         private Button btnCancelar;
         private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
         private DataGridView dgvUsuarios;
+        private Panel pnlTabla;
     }
 }

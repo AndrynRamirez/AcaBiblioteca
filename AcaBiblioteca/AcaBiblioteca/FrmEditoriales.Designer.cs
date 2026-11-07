@@ -47,18 +47,20 @@
             // 
             // pnlTitulo
             // 
+            pnlTitulo.BackColor = Color.DarkSlateBlue;
             pnlTitulo.Controls.Add(lblTitulo);
             pnlTitulo.Dock = DockStyle.Top;
+            pnlTitulo.ForeColor = Color.White;
             pnlTitulo.Location = new Point(0, 0);
             pnlTitulo.Name = "pnlTitulo";
-            pnlTitulo.Size = new Size(800, 80);
+            pnlTitulo.Size = new Size(800, 60);
             pnlTitulo.TabIndex = 0;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Unispace", 15.7499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitulo.Location = new Point(253, 30);
+            lblTitulo.Location = new Point(253, 20);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(298, 25);
             lblTitulo.TabIndex = 0;
@@ -74,7 +76,7 @@
             pnlCentral.Controls.Add(txtNombre);
             pnlCentral.Controls.Add(lblNombre);
             pnlCentral.Dock = DockStyle.Top;
-            pnlCentral.Location = new Point(0, 80);
+            pnlCentral.Location = new Point(0, 60);
             pnlCentral.Name = "pnlCentral";
             pnlCentral.Size = new Size(800, 200);
             pnlCentral.TabIndex = 1;
@@ -152,10 +154,13 @@
             // 
             // dgvEditoriales
             // 
+            dgvEditoriales.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvEditoriales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEditoriales.Location = new Point(0, 286);
+            dgvEditoriales.Dock = DockStyle.Fill;
+            dgvEditoriales.Location = new Point(0, 260);
+            dgvEditoriales.MultiSelect = false;
             dgvEditoriales.Name = "dgvEditoriales";
-            dgvEditoriales.Size = new Size(800, 166);
+            dgvEditoriales.Size = new Size(800, 190);
             dgvEditoriales.TabIndex = 2;
             // 
             // FrmEditoriales
